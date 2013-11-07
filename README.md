@@ -5,7 +5,7 @@ Do not use this in production code. It is useful in a test environment where you
 
 ##run
 
-####ownload the yui build to the project folder
+####download the yui build to the project folder
 
 - visit http://yuilibrary.com/
 - download the zip

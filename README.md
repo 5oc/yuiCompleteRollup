@@ -21,10 +21,9 @@ Do not use this in production code. It is useful in a test environment where you
     
 ####adapt the yui bild folder name in the script
 
-- createRollup.py 
-    ...
+createRollup.py 
+
     pathToYui = "../yui?.?.?/"
-    ...
 
 ####run the script    
 

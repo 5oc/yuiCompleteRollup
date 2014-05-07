@@ -23,19 +23,18 @@ Do not use this in production code. It is useful in a test environment where you
 
 createRollup.py 
 
-    pathToYui = "../yui?.?.?/"
+    pathToYui = "yui/"
 
 ####run the script    
 
     ./createRollup.py
+    
+Now a file named [yuiCompleteRollup.js] was created and you are ready to use it.
 
 
 ##config
-Some modules are excluded because they are not compatible like "yui-nodejs-min.js".
-You can change this by edit the blackList array in the script.
+Some files are excluded because they are not compatible like "yui-nodejs-min.js".
+You can change this by editing the blackList in the createRollup.py
 
     blackList = ["yui-nodejs-min.js"]
-    
-Or tell the script where the library files are located.
 
-    pathToYui = "../yui3.10.3/"

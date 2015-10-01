@@ -37,4 +37,3 @@ Some files are excluded because they are not compatible like "yui-nodejs-min.js"
 You can change this by editing the blackList in the createRollup.py
 
     blackList = ["yui-nodejs-min.js"]
-
